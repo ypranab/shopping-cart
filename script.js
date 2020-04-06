@@ -14,14 +14,10 @@ const removeCase = document.getElementById("removeCase");
 
 removePhone.addEventListener("click", function() {
     itemCounter = 0;
-    tax = 1;
-    total = 0;
     subTotal = remove("inputItem", "amountCount", "amountCount2");
 })
 removeCase.addEventListener("click", function() {
     itemCounter2 = 0;
-    tax = 1;
-    total = 0;
     subTotal = remove("inputItem2", "amountCount2", "amountCount");
 })
 function remove(idFirst, idSecond, idThird){
